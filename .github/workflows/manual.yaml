@@ -4,7 +4,7 @@ on:
   inputs:
    greeting:
     type: string
-    default: Hell
+    default: Hello
     required: true
     description: A cheerful word
 
@@ -13,4 +13,4 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - run: echo "${{inputs.greeting }}" #入力パラメータgreetingの参照
-   - uses: actions/checkout@v4
+ #  - uses: actions/checkout@v4
