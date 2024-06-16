@@ -12,5 +12,5 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ github.event.inputs.greeting }}" # 入力パラメータgreetingの参照
-      # - uses: actions/checkout@v4
+      - run: echo "${{ github.event.inputs.greeting }}" 
+
