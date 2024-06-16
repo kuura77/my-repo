@@ -7,7 +7,7 @@ on:
         required: true
         description: A cheerful word
 jobs:
-  run:
+  manualjob:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello, world!!!!"
